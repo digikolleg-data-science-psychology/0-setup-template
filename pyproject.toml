@@ -1,0 +1,18 @@
+[project]
+name = "ads_exercise"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Luca Abel", email = "luca.abel@fau.de" },
+    { name = "Marie Oesten", email = "marie.oesten@fau.de" },
+]
+requires-python = ">=3.11,<4.0"
+readme = "README.md"
+license = "MIT"
+dependencies = [
+    "numpy==2.3.2",
+    "biopsykit==0.13.1",
+    "pathlib",
+    "scipy>=1.13.0,<2",
+    "pooch>=1.8.1,<2",
+]
